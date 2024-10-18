@@ -1,0 +1,21 @@
+galaxy_info:
+  author: David Pujadas
+  description: Ansible role to disable Transparent Hugepages on Ubuntu server
+
+  license: MIT
+
+  min_ansible_version: 2.2
+
+  platforms:
+  - name: Ubuntu
+    versions:
+      - trusty
+      - xenial
+
+  galaxy_tags:
+    - ubuntu
+    - thp
+
+  role_name: disable_thp
+
+dependencies: []
